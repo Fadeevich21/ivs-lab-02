@@ -19,7 +19,6 @@ class Menu:
 
                 return arr
 
-
             with open(file_name) as file:
                 i: int = 1
                 for line in file:
@@ -53,7 +52,6 @@ class Menu:
                     i += 1
                     if i % 100 == 0:
                         print(f'i = {i}')
-                    # break
 
         self.__db = ServiceDB('database/sql.db')        
         self.__query = {}

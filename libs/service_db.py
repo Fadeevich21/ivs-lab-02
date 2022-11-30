@@ -1,5 +1,5 @@
-import sqlite3
 # import psycopg2
+import sqlite3
 from typing import List, Optional, Tuple
 
 
@@ -44,7 +44,6 @@ class ServiceDB:
         for items in list_items:
             query += f'({str(items)[1:-1]}), '
         query = query[:-2] + ';'
-        # print(query)
         self.execute(query)
         
 

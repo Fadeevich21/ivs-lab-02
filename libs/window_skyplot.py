@@ -9,4 +9,4 @@ class WindowSkyplot(Window):
         super().__init__(tab)
 
     def handle(self) -> None:
-        return super().handle()
+        pass
